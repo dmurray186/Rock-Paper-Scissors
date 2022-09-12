@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" class="rps">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+
+<div id="headerDiv">
+<h1 id="headline">Rock Paper Scissors</h1>
+<div id="scorecard">
+  <p>Score: </p>
+  <h1 id="scoreP"></h1>
+</div>
+</div>
+
+
+<div id="pickDiv">
+<h1 id="pick"></h1>
+<h1 id="cpuPick"></h1>
+</div>
+
+<div id="winnerDiv">
+  <h1 id="winner"></h1>
+  <p id="winDesc"></p>
+  <form action="/">
+    <button id="playAgain" type="submit" class="invisible" value="Play Again">Play Again</button>
+  </form>
+</div>
+
+
+<div id="toolId" class="set">
+  <button class="r tool" name="rock"></button>
+  <button class="p tool" name="paper"></button>
+  <button class="s tool" name="scissors"></button>
+</div>
+
+
+<button id="clearScore">Clear Score</button>
+
+<button id="btn">Rules</button>
+
+<div id="ruleBox">
+<div id="rules">
+<p>
+Scissors Cuts Paper<br>
+Paper Covers Rock
+Rock Crushes Scissors
+</p>
+</div>
+</div>
+
+
+<form action="/rpsls">
+  <button id="game2" type="submit">Rock Paper Scissors Lizard Spock</button>
+</form>
+
+	<script src="scripts/script.js"></script>
+  </body>
+</html>

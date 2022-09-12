@@ -1,0 +1,10 @@
+Scissors Cuts Paper
+Paper Covers Rock
+Rock Crushes Lizard
+Lizard Poisons Spack
+Spack Smashes Scissors
+Scissors Decapiotactes Lizard
+Lizard Eats Paper
+Paper Dissproves Spack
+Spack Vapourises Rock
+Rock Crushes Scissors
